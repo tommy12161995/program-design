@@ -1,0 +1,743 @@
+150503 011720.797|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150503 011720.799|INFO|main|info|
+150503 011720.806|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150503 011720.807|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150503 011720.832|INFO|main|startLog|Process id is 8156@VAIO
+150503 011720.832|INFO|main|start|Starting ConnectionManager...
+150503 011721.093|INFO|main|start|Started ConnectionManager
+150503 011721.097|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150503 011721.097|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150503 011721.098|INFO|main|info|Contacting server at 140.123.104.102:50002
+150503 011721.099|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150503 011721.183|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=58886]-8530218861156871065)
+150503 011721.370|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=58886]-8530218861156871065 key is com.sun.crypto.provider.DESKey@18596
+150503 011721.371|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150503 011721.375|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1a267b57 854a4f6b e115771c 8eea1077 470da616 3d0bdb21 884f1c87 5f3bcc8e
+    96a8fd6b 89f5dfce e8ab5250 581bf7c8 fd7c1bb5 e3421558 38046731 21cf1f02
+    baee4ab5 8f49c5d4 ae5d5954 22535d25 438d5fc5 799adda1 616f0a81 25770259
+    293640e7 506ccdc2 82736012 551c96a7 a66568b8 ca73fc3a 55d87a73 adaa4463
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150503 011721.376|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7850aec4
+150503 213755.990|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150503 213756.036|INFO|main|info|
+150503 213756.046|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150503 213756.047|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150503 213756.102|INFO|main|startLog|Process id is 8104@VAIO
+150503 213756.103|INFO|main|start|Starting ConnectionManager...
+150503 213756.488|INFO|main|start|Started ConnectionManager
+150503 213756.498|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150503 213756.498|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150503 213756.499|INFO|main|info|Contacting server at 140.123.104.102:50002
+150503 213756.500|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150503 213758.887|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=56590]-3469522530450613386)
+150503 213759.325|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=56590]-3469522530450613386 key is com.sun.crypto.provider.DESKey@fffe7a92
+150503 213759.326|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150503 213759.327|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    906b2719 cea0deaa 353a0e24 950232c1 605012eb e810f566 fdc20b02 fee7ec99
+    29d5a788 5555eadd c34a48ec 37483000 ec0c16b8 a3fdbc61 2231e72c 4a36e1fe
+    ed4df0a6 34c5dde5 0b003a85 6c460f6e fac78dce a9b0b184 b0312cff dffb8975
+    bdb15daf c92d9773 d21eb06f dd1da249 02d0955b 77bcddc0 422cfbbf 6161f045
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150503 213759.328|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2190419
+150507 001826.213|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150507 001826.229|INFO|main|info|
+150507 001826.239|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150507 001826.240|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150507 001826.269|INFO|main|startLog|Process id is 5864@VAIO
+150507 001826.270|INFO|main|start|Starting ConnectionManager...
+150507 001826.652|INFO|main|start|Started ConnectionManager
+150507 001826.661|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150507 001826.661|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150507 001826.662|INFO|main|info|Contacting server at 140.123.104.102:50002
+150507 001826.663|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150507 001826.785|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=58691]-1186521485816129705)
+150507 001826.971|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=58691]-1186521485816129705 key is com.sun.crypto.provider.DESKey@fffe7b10
+150507 001826.971|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150507 001826.973|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1bd9193c 3639b788 865fab3a 1b4a3e09 071df2e0 ccd84978 1949540d a7112229
+    1a958679 20b55ba2 a2e18ae6 9d7ecef9 567a346f a9af5a11 c38755ee d753e51c
+    5dc53a1f da91f965 260c64bb 2b4b202d 32688a4b 41a7c21f c31fc787 b8f918fc
+    d5c8ed61 d2bddec4 4e7e84a2 d01080b2 0145e157 70f2eadc 5b6be20a 990874fd
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150507 001826.973|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@5d5d0293
+150507 013726.979|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150507 013726.982|INFO|main|info|
+150507 013726.993|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150507 013726.994|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150507 013727.020|INFO|main|startLog|Process id is 6824@VAIO
+150507 013727.020|INFO|main|start|Starting ConnectionManager...
+150507 013727.378|INFO|main|start|Started ConnectionManager
+150507 013727.388|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150507 013727.389|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150507 013727.390|INFO|main|info|Contacting server at 140.123.104.102:50002
+150507 013727.391|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150507 013727.485|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=59304]-7451553319042684172)
+150507 013727.677|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=59304]-7451553319042684172 key is com.sun.crypto.provider.DESKey@18628
+150507 013727.678|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150507 013727.681|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    89319d11 03483f53 2400d839 95aef20a 21085067 dede0100 45f69265 a5e2edc2
+    62482235 c00339e9 624c4914 d9028213 c73b0062 92b45e55 fdcab971 545c4ac3
+    41bf48db 80fb9732 dd7fc695 f307604c 6ceb8458 da590962 b7c8e6ce e79971a8
+    0043d1f3 4339ffb3 b81440ac f2116c5f c1ccd51a 6288b167 c7b35373 5e4d5295
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150507 013727.682|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@29a01add
+150507 141443.665|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150507 141443.688|INFO|main|info|
+150507 141443.697|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150507 141443.699|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150507 141443.724|INFO|main|startLog|Process id is 5604@VAIO
+150507 141443.725|INFO|main|start|Starting ConnectionManager...
+150507 141443.973|INFO|main|start|Started ConnectionManager
+150507 141443.985|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150507 141443.986|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150507 141443.988|INFO|main|info|Contacting server at 140.123.104.102:50002
+150507 141443.990|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150507 141444.090|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=61265]-1766310745503139192)
+150507 141444.287|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=61265]-1766310745503139192 key is com.sun.crypto.provider.DESKey@18545
+150507 141444.287|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150507 141444.290|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    a7b36198 8b7923c5 40b00c1c bc461906 4b1a95f1 a594ebf1 3318a5da 9fbf08fa
+    4a0f9c8f 04a2c378 4629f7d9 3e301546 355ebe58 0ca24527 bd4f0ea2 63ccaac0
+    8589afd9 95180bcf 80d550e3 015c50c2 78f3e95d c2e11afc c7e3bce0 033035c7
+    d7ecd3ba 8fbfa26e 353bc4ec c33a3f0b 8312b5db 3bbfcab5 0c7dc6cd fad23352
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150507 141444.291|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@50c91c07
+150511 202342.942|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150511 202343.059|INFO|main|info|
+150511 202343.080|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150511 202343.082|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150511 202343.131|INFO|main|startLog|Process id is 5612@VAIO
+150511 202343.131|INFO|main|start|Starting ConnectionManager...
+150511 202343.694|INFO|main|start|Started ConnectionManager
+150511 202343.710|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150511 202343.711|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150511 202343.711|INFO|main|info|Contacting server at 140.123.104.102:50002
+150511 202343.713|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150511 202343.819|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=49643]-5199818768741766719)
+150511 202344.187|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=49643]-5199818768741766719 key is com.sun.crypto.provider.DESKey@fffe7fdb
+150511 202344.188|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150511 202344.192|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    46497e04 36a90eaf b6c0e3af 48db6fb5 7604c536 f667b8fc 3fb899af cad9a497
+    0e9647a4 a493c9cd 3c39b201 2feae0cd 9f71a50a b947bebd 20415da4 652f12e8
+    a72722b2 0b6b21ae ae71adb1 f590c90e f7d8055b 1f797195 9f32e480 df9ce9d9
+    f1b477ab 22b1ccf4 36713c24 1afb8ee5 a5f1b06b d02adb9b e2fb4653 086da9e8
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150511 202344.193|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@434f3900
+150512 005247.727|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150512 005247.733|INFO|main|info|
+150512 005247.755|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150512 005247.757|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150512 005247.810|INFO|main|startLog|Process id is 8040@VAIO
+150512 005247.811|INFO|main|start|Starting ConnectionManager...
+150512 005248.567|INFO|main|start|Started ConnectionManager
+150512 005248.587|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150512 005248.588|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150512 005248.589|INFO|main|info|Contacting server at 140.123.104.102:50002
+150512 005248.591|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150512 005248.699|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=57035]--4025350248589940280)
+150512 005249.177|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=57035]--4025350248589940280 key is com.sun.crypto.provider.DESKey@1806c
+150512 005249.178|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150512 005249.186|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    10001386 43ab38cf 4e43b47e ce40e855 5356e457 d1d2e982 398e8c34 1d56e529
+    fb2529a5 37244151 c21f421e 2e9f31aa 52cb25a7 a4d9dbef 28ad4339 a017011a
+    587cb7ac f0f5f73b dd6a148a e92f2e1b c721a4aa 85875cc8 43907efe fe3a8668
+    47251c3e ffd4ef73 923fcd8b 80d312a5 180835e3 a39b731b 21744fbc e4326eb2
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150512 005249.188|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7c1ba98b
+150512 011601.907|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150512 011601.912|INFO|main|info|
+150512 011601.926|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150512 011601.928|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150512 011601.971|INFO|main|startLog|Process id is 2224@VAIO
+150512 011601.972|INFO|main|start|Starting ConnectionManager...
+150512 011602.396|INFO|main|start|Started ConnectionManager
+150512 011602.406|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150512 011602.407|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150512 011602.408|INFO|main|info|Contacting server at 140.123.104.102:50002
+150512 011602.410|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150512 011602.515|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=57128]-3699032732332443766)
+150512 011602.841|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=57128]-3699032732332443766 key is com.sun.crypto.provider.DESKey@180e2
+150512 011602.842|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150512 011602.845|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    5acfed23 fb4d1344 5e75a3e1 e2b21a37 dfdf7ab7 aebf1e49 5df8273b f1a2fd75
+    ba187999 8065ae8a 3d251e66 ac162fe8 86f7a352 5c5f7cfe 5f786db5 7a6d569e
+    6f4ac51a 1b00b289 31b88d8f c22a98fc dd2ab9f8 4de7ca4a 7e2a585c 1156f9a8
+    fbb67cbd b43c9e9a 314f2c8a a4a4a9bd 54eaed45 0b3633d3 2d71b4e8 d8c9d13f
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150512 011602.847|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6744b0d4
+150512 104647.385|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150512 104647.494|INFO|main|info|
+150512 104647.512|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150512 104647.515|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150512 104647.571|INFO|main|startLog|Process id is 4420@VAIO
+150512 104647.572|INFO|main|start|Starting ConnectionManager...
+150512 104648.050|INFO|main|start|Started ConnectionManager
+150512 104648.069|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150512 104648.071|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150512 104648.073|INFO|main|info|Contacting server at 140.123.104.102:50002
+150512 104648.077|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150512 104648.256|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=61051]-3166107440279228750)
+150512 104648.660|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=61051]-3166107440279228750 key is com.sun.crypto.provider.DESKey@187df
+150512 104648.661|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150512 104648.669|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    aa59e46d 14a2c541 9f978680 62ae5e9e 7a80e2c1 a9d9309b 9f2314ff 3794b1f9
+    edf6ed8b c2317ace b78bc746 92008659 435de26d 912bd91b d2b8aad2 4f434b5b
+    86db7e4d c1be8b24 fff43bd0 c9a5f5a9 9f82fc06 5f8aa92d c3a21ac1 73bac14c
+    efbacdd1 5bf56719 e1533c31 09c7913e 25d828f4 120f2f65 38f8fff2 44b2b364
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150512 104648.670|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2d8a7440
+150512 134353.011|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150512 134353.132|INFO|main|info|
+150512 134353.141|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150512 134353.143|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150512 134353.173|INFO|main|startLog|Process id is 6948@VAIO
+150512 134353.174|INFO|main|start|Starting ConnectionManager...
+150512 134353.388|INFO|main|start|Started ConnectionManager
+150512 134353.394|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150512 134353.395|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150512 134353.396|INFO|main|info|Contacting server at 140.123.104.102:50002
+150512 134353.397|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150512 134353.494|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=62215]-7866300138300583647)
+150512 134353.648|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=62215]-7866300138300583647 key is com.sun.crypto.provider.DESKey@18531
+150512 134353.648|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150512 134353.651|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    21f8939c 5823fc06 f375c169 5b75ae84 76f5d125 80102b0d 67a9b769 65cf972a
+    8ee4c65b ff0e8462 abeb207b 9ce00e6d 4ea43875 f645caf9 5c5c89da eacedb83
+    120982f7 5f7f08e1 1eb5fd1a ad76f64b fcdaa30c 80279f14 6f38c265 7b8f4699
+    1dea1553 5e311a5d ecd37ac7 92875ce3 acfdb49c 70984e54 87acde9d f21d6ee0
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150512 134353.652|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@51e52bfd
+150519 193044.769|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150519 193044.787|INFO|main|info|
+150519 193044.811|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150519 193044.814|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150519 193044.911|INFO|main|startLog|Process id is 9256@VAIO
+150519 193044.912|INFO|main|start|Starting ConnectionManager...
+150519 193045.253|INFO|main|start|Started ConnectionManager
+150519 193045.259|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150519 193045.260|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150519 193045.260|INFO|main|info|Contacting server at 140.123.104.102:50002
+150519 193045.261|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150519 193045.579|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=56488]--8074306511265136007)
+150519 193045.780|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=56488]--8074306511265136007 key is com.sun.crypto.provider.DESKey@fffe7985
+150519 193045.786|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150519 193045.789|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    e1967fb7 fe53bcd5 6584a9b6 cc2dda84 83501925 69d935b1 dc77ffff b66d2cb7
+    89e99a40 a61fe324 5e0363e0 8ebb9662 8126808d 44eab220 c6fb9ee4 ab082f4c
+    89bfffa7 aeca7607 97aacf7d 6d3fcd2d e4728db3 48e51539 e393d786 ff9def4c
+    ef3de9c1 6bffa36a dc754bc2 ba3215e9 55f00cd0 5116242c 9b26f2f4 e58b31bd
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150519 193045.789|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1be51a
+150519 194744.046|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150519 194744.048|INFO|main|info|
+150519 194744.052|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150519 194744.053|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150519 194744.068|INFO|main|startLog|Process id is 7088@VAIO
+150519 194744.069|INFO|main|start|Starting ConnectionManager...
+150519 194744.210|INFO|main|start|Started ConnectionManager
+150519 194744.218|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150519 194744.219|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150519 194744.219|INFO|main|info|Contacting server at 140.123.104.102:50002
+150519 194744.220|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150519 194744.483|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=56570]--3957464600322992584)
+150519 194744.788|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=56570]--3957464600322992584 key is com.sun.crypto.provider.DESKey@fffe7806
+150519 194744.789|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150519 194744.791|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    679c334c c53eb37f 50733934 09c1bd63 b7dd9de3 7738ba73 82a80cf2 994c80fe
+    f8554199 89df48ba 352e799b 2eb2929c 1707c94a 2a83847c 2af73345 de8db6a4
+    875a1eb0 b74b2746 9d6cbc38 b4212cc6 8d437f83 6682dff2 a2b531f8 0d6c4121
+    96ec40d0 c4c5e416 5603dfa1 e934a07c 2fc5240e 7e6398e5 cf3ebaca 83ef5879
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150519 194744.791|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@5715de6f
+150519 202009.106|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150519 202009.107|INFO|main|info|
+150519 202009.112|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150519 202009.113|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150519 202009.127|INFO|main|startLog|Process id is 8180@VAIO
+150519 202009.128|INFO|main|start|Starting ConnectionManager...
+150519 202009.263|INFO|main|start|Started ConnectionManager
+150519 202009.267|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150519 202009.267|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150519 202009.267|INFO|main|info|Contacting server at 140.123.104.102:50002
+150519 202009.268|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150519 202009.481|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=56834]--1481284676941133767)
+150519 202009.630|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=56834]--1481284676941133767 key is com.sun.crypto.provider.DESKey@fffe7a62
+150519 202009.632|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150519 202009.635|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    297b68ce 38c57441 5f7c6e38 39e8cb18 1b17f19c b7c6bde0 e96a0db3 97871a72
+    5fe22353 17480d6e 9045d130 33a82a0d 2eaf6a6e a85e743d b8016282 912ab5b9
+    57df79cf 85242624 5e72a977 2c03622f fb7fb16a 6c172c2d 322aa1fa ec06e6f0
+    7f1fcb92 007017db eaedeca4 4b94005c bdaf7126 d7dd17ae 01785e95 223cc095
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150519 202009.636|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6bd33f8
+150521 002210.549|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150521 002210.553|INFO|main|info|
+150521 002210.567|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150521 002210.569|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150521 002210.600|INFO|main|startLog|Process id is 8780@VAIO
+150521 002210.600|INFO|main|start|Starting ConnectionManager...
+150521 002211.078|INFO|main|start|Started ConnectionManager
+150521 002211.094|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150521 002211.095|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150521 002211.096|INFO|main|info|Contacting server at 140.123.104.102:50002
+150521 002211.097|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150521 002232.127|INFO|main|<init>|IO Exception:140.123.104.102
+150521 002232.128|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+150521 002232.128|INFO|main|start|Exception logged 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection timed out: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2288)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+150521 002232.129|INFO|main|info|Unable to contact server at 140.123.104.102:0 Connection timed out: connect
+150521 002252.264|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150521 002252.268|INFO|main|info|
+150521 002252.278|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150521 002252.279|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150521 002252.307|INFO|main|startLog|Process id is 8436@VAIO
+150521 002252.307|INFO|main|start|Starting ConnectionManager...
+150521 002252.562|INFO|main|start|Started ConnectionManager
+150521 002252.569|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150521 002252.569|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150521 002252.570|INFO|main|info|Contacting server at 140.123.104.102:50002
+150521 002252.571|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150521 002252.658|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=64028]--3389302300131497753)
+150521 002252.866|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=64028]--3389302300131497753 key is com.sun.crypto.provider.DESKey@1823c
+150521 002252.866|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150521 002252.870|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    e85fc508 ac9a08af 1ac74d11 561b509f ad62e6d1 cde79e92 69685a58 cb021982
+    90bea67b 874eb708 4ace230c e11a349c 76a47fad 1068c27a 7e63bd38 3352ae17
+    280e7428 18b2503a 1a2b1b70 99f234dd f86ca89f af46e67b ebac9553 d873861a
+    0f02f773 36a6b320 48c6f491 30f6e0b5 72cef16a 89e063f0 6809bd37 dd667e4c
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150521 002252.870|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@3ea20bc2
+150523 153109.157|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150523 153109.162|INFO|main|info|
+150523 153109.177|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150523 153109.179|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150523 153109.219|INFO|main|startLog|Process id is 8388@VAIO
+150523 153109.219|INFO|main|start|Starting ConnectionManager...
+150523 153109.704|INFO|main|start|Started ConnectionManager
+150523 153109.711|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150523 153109.712|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150523 153109.712|INFO|main|info|Contacting server at 140.123.104.102:50002
+150523 153109.713|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150523 153109.792|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=63607]-6318252943991776166)
+150523 153109.916|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=63607]-6318252943991776166 key is com.sun.crypto.provider.DESKey@1834c
+150523 153109.916|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150523 153109.922|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    61088dba d4fccd25 bdb35315 43adaf7f 8bbcd78f 28745dd1 d3864a80 d45bf442
+    05c9ed5e ebac08df e2bd9e87 f55f4e18 050ad8a1 fd6ccc02 e24c3851 b0acbc13
+    e67cbc9b ee6d2874 357b53a3 35fd1f66 2c62d93e 65e6d179 6a36ecff 3ccc02e8
+    12345dee b2ecb7dc db82d2d6 bffcf485 da4385f5 66bf82e0 aa9de40e a32e5441
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150523 153109.923|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@3f9b2ca1
+150524 152410.396|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150524 152410.400|INFO|main|info|
+150524 152410.411|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150524 152410.412|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150524 152410.455|INFO|main|startLog|Process id is 7096@VAIO
+150524 152410.456|INFO|main|start|Starting ConnectionManager...
+150524 152410.655|INFO|main|start|Started ConnectionManager
+150524 152410.662|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150524 152410.662|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150524 152410.662|INFO|main|info|Contacting server at 140.123.104.102:50002
+150524 152410.663|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150524 152410.863|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=64541]--1487799694353927227)
+150524 152411.170|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=64541]--1487799694353927227 key is com.sun.crypto.provider.DESKey@fffe7afc
+150524 152411.171|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150524 152411.173|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    9eea8b43 774e24d0 8d862758 ffd103fd 441a1132 a47e1d85 8fdad813 cd104da3
+    8fcc285b e1e5dd03 75d4c3e7 04f578f4 db606143 f23bfb79 674ffcfb 66204198
+    3ab12fbd de2fb28f bc94ef29 61a883bb 04bb60bd b4c9d4e6 f07faa73 01da3871
+    e4e4607f 2a158f29 1c2b58a7 f7ef8e4e 93aa2bf2 ac2fde49 d760763a 860d2516
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150524 152411.174|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@160ac750
+150524 172440.812|INFO|Thread-1|receive|Exception in receive for Socket[addr=/140.123.104.102,port=50002,localport=64541]--1487799694353927227
+|java.net.SocketTimeoutException: Read timed out
+|    at java.net.SocketInputStream.socketRead0 (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150524 172440.940|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Read timed out
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:161)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150524 172440.946|INFO|Thread-1|receive|SocketException in receive for Socket[addr=/140.123.104.102,port=50002,localport=64541]--1487799694353927227
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150524 172440.950|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150527 235203.028|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150527 235203.035|INFO|main|info|
+150527 235203.045|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150527 235203.046|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150527 235203.095|INFO|main|startLog|Process id is 8948@VAIO
+150527 235203.096|INFO|main|start|Starting ConnectionManager...
+150527 235203.416|INFO|main|start|Started ConnectionManager
+150527 235203.426|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150527 235203.426|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150527 235203.427|INFO|main|info|Contacting server at 140.123.104.102:50002
+150527 235203.428|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150527 235203.522|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=63836]--2336931395453781311)
+150527 235203.706|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=63836]--2336931395453781311 key is com.sun.crypto.provider.DESKey@180a6
+150527 235203.707|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150527 235203.710|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    c7a59244 ee7f1fc6 d162684b 9e1a4263 073861f4 ff3453ae 3ed0f3bf a4c7fdc2
+    6e409b20 9e13ffa0 964932c4 48afb5a5 556561b8 7918e8d9 6fdff19d b025c328
+    b1544c52 4ded4971 6fd75a48 f89d5925 fb306fc6 01edc866 c8e8ecae 16b6c4b5
+    966e6976 f5ead32c 346316bf 3efa735e d6b3bc6f 7530b024 d04a0db0 e3ed7d72
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150527 235203.711|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@3c4d3949
+150528 154547.572|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150528 154547.575|INFO|main|info|
+150528 154547.585|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150528 154547.586|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150528 154547.614|INFO|main|startLog|Process id is 9928@VAIO
+150528 154547.614|INFO|main|start|Starting ConnectionManager...
+150528 154547.855|INFO|main|start|Started ConnectionManager
+150528 154547.867|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150528 154547.867|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150528 154547.868|INFO|main|info|Contacting server at 140.123.104.102:50002
+150528 154547.869|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150528 154547.957|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=63003]-1846575332069026562)
+150528 154548.153|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=63003]-1846575332069026562 key is com.sun.crypto.provider.DESKey@fffe797a
+150528 154548.154|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150528 154548.156|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    62a8b4f1 847c09d7 306ce229 e4a50c0c 67ecafc5 0c21bfb5 121e52eb 877086c5
+    a2ac4504 b43e1330 32e299e4 376f759a 4a22e053 857798ec 3fd875b1 826da5a1
+    c61385df 80afbf66 055dfc04 a4a8953e e73b723e 2fad943b 71b7c97d 10d76964
+    2b9bf08e 5ea598f4 2668626a 14b3f87b 0bc2bda0 012371cd b4663810 695fc58b
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150528 154548.157|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@423f08e3
+150531 230503.449|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150531 230503.452|INFO|main|info|
+150531 230503.465|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150531 230503.467|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150531 230503.515|INFO|main|startLog|Process id is 7524@VAIO
+150531 230503.515|INFO|main|start|Starting ConnectionManager...
+150531 230504.220|INFO|main|start|Started ConnectionManager
+150531 230504.241|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150531 230504.243|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150531 230504.245|INFO|main|info|Contacting server at 140.123.104.102:50002
+150531 230504.249|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150531 230504.381|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=60711]--6875325557392071940)
+150531 230504.839|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=60711]--6875325557392071940 key is com.sun.crypto.provider.DESKey@18652
+150531 230504.840|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150531 230504.844|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    728c94f3 4a2813d2 62966d9f 9dd121bb 2c6e5b67 599ddc3d 828a97fe 55cd5ee4
+    ea6bc47c 3da0b04d afec11be 00be5a5e 85e1cfc1 4b6bb4ed d4c0f945 ca099a10
+    bde4912c 82a63f47 2cf54329 03c1ecf8 1829abcc e8923f7b aa44e46a 10e8c0bd
+    d243e5b6 a9abb455 0f4b6e32 fdc03d31 1bd2e39a 51ae1287 2bb96b13 a001f8d8
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150531 230504.847|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1299d847
+150531 231850.063|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150531 231850.066|INFO|main|info|
+150531 231850.075|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150531 231850.077|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150531 231850.101|INFO|main|startLog|Process id is 11124@VAIO
+150531 231850.102|INFO|main|start|Starting ConnectionManager...
+150531 231850.337|INFO|main|start|Started ConnectionManager
+150531 231850.344|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150531 231850.344|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150531 231850.345|INFO|main|info|Contacting server at 140.123.104.102:50002
+150531 231850.347|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150531 231850.436|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=63417]--5577775984544198259)
+150531 231850.614|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=63417]--5577775984544198259 key is com.sun.crypto.provider.DESKey@fffe7970
+150531 231850.615|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150531 231850.620|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    9acd92b1 94e4c607 c04b8fcb acaa234c 82e67721 2218fde0 6a0f1b05 9d233839
+    5286b06f 9f30fe4d 583bf867 22e9d30c aea6974a e21676f0 3892c302 6e23653e
+    f60cd370 f0aa12e7 8d10972f 15d177b7 73289394 8d08d53e c3182883 8daeda07
+    79412d7d f1ad8b9c 81fe11c2 a786f705 54eec250 e3ac1735 a72cd169 9881ead6
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150531 231850.621|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6275186
+150613 114255.206|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150613 114255.219|INFO|main|info|
+150613 114255.229|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150613 114255.231|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150613 114255.281|INFO|main|startLog|Process id is 388@VAIO
+150613 114255.282|INFO|main|start|Starting ConnectionManager...
+150613 114255.632|INFO|main|start|Started ConnectionManager
+150613 114255.645|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150613 114255.646|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150613 114255.646|INFO|main|info|Contacting server at 140.123.104.102:50002
+150613 114255.648|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150613 114255.732|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=63636]-5721487564985403192)
+150613 114255.923|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=63636]-5721487564985403192 key is com.sun.crypto.provider.DESKey@fffe7ded
+150613 114255.923|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150613 114255.925|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    43cb7c2d 903bfabf a4845060 8518224c 6c04fea8 39a7cfd3 8a6f9115 305c9406
+    ee9bb548 365aba67 c1016d42 d7d12d20 bbfa05e6 35e8b7b7 d00b1d2d c7b32fcf
+    a7f72395 cca5e976 63583d06 72e329d3 74695bdd 5b0885fe 87c5cbd1 c78f302b
+    c2245a5e 8ee80354 e48e9300 5688b97f 5cdac288 753aff78 9cf60298 3ee21e12
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150613 114255.926|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@5c30f961
+150614 181715.238|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150614 181715.241|INFO|main|info|
+150614 181715.251|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150614 181715.253|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150614 181715.304|INFO|main|startLog|Process id is 10092@VAIO
+150614 181715.304|INFO|main|start|Starting ConnectionManager...
+150614 181715.601|INFO|main|start|Started ConnectionManager
+150614 181715.610|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150614 181715.610|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150614 181715.611|INFO|main|info|Contacting server at 140.123.104.102:50002
+150614 181715.612|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150614 181715.831|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=57223]--599066995727441706)
+150614 181716.105|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=57223]--599066995727441706 key is com.sun.crypto.provider.DESKey@1805a
+150614 181716.105|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150614 181716.108|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    b19cb1cc dabca75c f5469e6e fab7a7dc 1ef2efe2 bca5d23a a8c53647 2f195169
+    3e3b83c7 51380a1c 58099d75 0d674e04 bac8cf6e 85aac144 2686fad5 4c4bd58a
+    54b1f3d2 d277f3ce b77ddb61 463ba346 2e399ff9 1cd4cbd8 6cb1c999 1f4272fc
+    4b573f63 06a0277d d2646b33 666ed07d 2f777431 1731d300 b038b571 92daba54
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150614 181716.109|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7f593791
+150614 184246.313|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin\logs directory.
+150614 184246.316|INFO|main|info|
+150614 184246.325|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.7.0_25 build 2565 Windows 8 6.2 (amd64) 
+150614 184246.326|INFO|main|startLog|Working directory is C:\Users\SONY_VAIO\Desktop\pc2-9.2.3_102\pc2-9.2.3_102\pc2-9.2.3\bin
+150614 184246.347|INFO|main|startLog|Process id is 9548@VAIO
+150614 184246.347|INFO|main|start|Starting ConnectionManager...
+150614 184246.556|INFO|main|start|Started ConnectionManager
+150614 184246.562|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/pc2-9.2.3_102/pc2-9.2.3_102/pc2-9.2.3/bin/pc2v9.ini
+150614 184246.562|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+150614 184246.563|INFO|main|info|Contacting server at 140.123.104.102:50002
+150614 184246.564|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+150614 184246.831|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.123.104.102,port=50002,localport=57468]-8707139323986324540)
+150614 184247.073|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.123.104.102,port=50002,localport=57468]-8707139323986324540 key is com.sun.crypto.provider.DESKey@fffe7d61
+150614 184247.077|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150614 184247.080|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    68ca073d 6e0c4997 58b7a39c 16fe56eb 76d1d373 40208704 f5b77634 9276e40e
+    1301fa0b 3eb01ee7 a74166bf 030dbeed bf812cb9 96a401bb e08c23b1 5395f3cc
+    6332dd81 96ab6ae8 459694cc a5698bc2 aca821a5 34ab33d7 1a38a15a fd4eecd2
+    b4ecaa12 2cf37e02 a560dfcc 28e5b5ef 52438f54 506d79bf 31567c9d df5301c5
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150614 184247.081|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@376f24cf

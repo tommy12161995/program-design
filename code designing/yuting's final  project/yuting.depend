@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1420429692 source:c:\users\sony_vaio\desktop\yuting\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

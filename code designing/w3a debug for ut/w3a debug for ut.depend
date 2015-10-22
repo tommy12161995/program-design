@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1427015910 source:c:\users\sony_vaio\desktop\w3a debug for ut\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

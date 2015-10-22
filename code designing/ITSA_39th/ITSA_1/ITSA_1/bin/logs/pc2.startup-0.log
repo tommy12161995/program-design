@@ -1,0 +1,154 @@
+150610 182109.509|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin\logs directory.
+150610 182109.511|INFO|main|info|
+150610 182109.521|INFO|main|info|Version 9.1.7 20140922 (Monday, September 22nd 2014 00:39 UTC) Java ver 1.7.0_25 build 2838 Windows 8 6.2 (amd64) 
+150610 182109.522|INFO|main|start|Working directory is C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin
+150610 182109.523|INFO|main|start|Starting ConnectionManager...
+150610 182109.858|INFO|main|start|Started ConnectionManager
+150610 182109.865|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+150610 182109.867|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/bin/pc2v9.ini
+150610 182109.867|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.73 parsed as 140.116.82.73 port 50002
+150610 182109.868|INFO|main|info|Contacting server at 140.116.82.73:50002
+150610 182109.869|INFO|main|connectToMyServer|Connecting to 140.116.82.73:50002
+150610 182109.971|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.73,port=50002,localport=49800]--8869055049654156665)
+150610 182110.156|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+150610 182110.182|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.73,port=50002,localport=49800]--8869055049654156665 key is com.sun.crypto.provider.DESKey@184c5
+150610 182110.183|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150610 182110.186|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    8a38b5f2 0f91dd75 791d618a d3c0951b 4742dc16 085c6e61 877daabb 4c99d728
+    e460a70a 33f730a2 6d7cd509 8a7b90b0 d1234b0f 3cb9d480 13d4c4e1 f8c43669
+    93125f60 50db23d6 ba335588 8e991f3d 973b5cde dd0439e1 b4b8141a 30fa9408
+    1d90696d fcf16af4 b8f08d1c 95cd723d bc558b4a c34cee8b a81f67cd 9799fd73
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150610 182110.187|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@446c5a4
+150610 182308.611|INFO|Thread-1|receive|EOFException in receive for Socket[addr=/140.116.82.73,port=50002,localport=49800]--8869055049654156665
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:150)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+150610 182308.613|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:157)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+150610 182308.614|FINER|Thread-1|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:157)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+150610 183833.079|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin\logs directory.
+150610 183833.089|INFO|main|info|
+150610 183833.098|INFO|main|info|Version 9.1.7 20140922 (Monday, September 22nd 2014 00:39 UTC) Java ver 1.7.0_25 build 2838 Windows 8 6.2 (amd64) 
+150610 183833.099|INFO|main|start|Working directory is C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin
+150610 183833.100|INFO|main|start|Starting ConnectionManager...
+150610 183833.456|INFO|main|start|Started ConnectionManager
+150610 183833.469|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+150610 183833.471|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/bin/pc2v9.ini
+150610 183833.471|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.73 parsed as 140.116.82.73 port 50002
+150610 183833.472|INFO|main|info|Contacting server at 140.116.82.73:50002
+150610 183833.476|INFO|main|connectToMyServer|Connecting to 140.116.82.73:50002
+150610 183833.568|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.73,port=50002,localport=49843]--8964968004746011745)
+150610 183833.814|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.73,port=50002,localport=49843]--8964968004746011745 key is com.sun.crypto.provider.DESKey@18526
+150610 183833.814|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150610 183833.817|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    2c77f4a4 aa426477 2aad0ea3 f1edb287 84ecb99b 2e412b0c 0b2f361e 5cd76045
+    e485be0c 2cf2cdd1 01e8d4b7 4909de5e 99b1723a acbbd692 b1fcb380 357228f3
+    c9e959d0 c9e0202d ac5bd400 7dcb1d37 affa6365 747c1f15 72f99a58 e01877d9
+    3a648fb0 f00051cf 85ab1ae8 a8f0d33c e6a70a2d 182f8468 001b8fea 69d91d16
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150610 183833.818|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@64e4804a
+150610 183833.919|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+150610 193457.896|INFO|Thread-1|receive|EOFException in receive for Socket[addr=/140.116.82.73,port=50002,localport=49843]--8964968004746011745
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:150)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+150610 193457.996|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:157)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+150610 193457.997|FINER|Thread-1|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:157)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:64)
+150610 193805.863|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin\logs directory.
+150610 193805.866|INFO|main|info|
+150610 193805.874|INFO|main|info|Version 9.1.7 20140922 (Monday, September 22nd 2014 00:39 UTC) Java ver 1.7.0_25 build 2838 Windows 8 6.2 (amd64) 
+150610 193805.875|INFO|main|start|Working directory is C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin
+150610 193805.876|INFO|main|start|Starting ConnectionManager...
+150610 193806.099|INFO|main|start|Started ConnectionManager
+150610 193806.105|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+150610 193806.106|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/bin/pc2v9.ini
+150610 193806.107|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.73 parsed as 140.116.82.73 port 50002
+150610 193806.107|INFO|main|info|Contacting server at 140.116.82.73:50002
+150610 193806.109|INFO|main|connectToMyServer|Connecting to 140.116.82.73:50002
+150610 193806.195|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.73,port=50002,localport=60577]-8233173831030424261)
+150610 193806.365|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+150610 193806.367|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.73,port=50002,localport=60577]-8233173831030424261 key is com.sun.crypto.provider.DESKey@184be
+150610 193806.368|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150610 193806.371|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    3573f056 3dd85bfb a80e2cd4 22b8d248 054cd310 de6471fc bba6679b d9bf957a
+    7f5b715b 5b94e295 e13d21a4 d3caadff 6ea0549c d97bdae0 9959e01f 0da82675
+    244248fe e24b275b 708d2f49 ef5786c0 71a070e9 c0b7c719 e3edd070 faa9e497
+    9f1af97e 4ad4dae5 4d7bc4f7 f4cae6b4 94ec3f5b af496c2d 808a3a62 27ec7635
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150610 193806.372|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@379faa8c
+150610 201926.222|CONFIG|main|setFileHandlers|Now logging to C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin\logs directory.
+150610 201926.225|INFO|main|info|
+150610 201926.232|INFO|main|info|Version 9.1.7 20140922 (Monday, September 22nd 2014 00:39 UTC) Java ver 1.7.0_25 build 2838 Windows 8 6.2 (amd64) 
+150610 201926.233|INFO|main|start|Working directory is C:\Users\SONY_VAIO\Desktop\ITSA_1\ITSA_1\bin
+150610 201926.233|INFO|main|start|Starting ConnectionManager...
+150610 201926.456|INFO|main|start|Started ConnectionManager
+150610 201926.460|DEBUG|main|start|Site Number is set as 0 (0 means unset)
+150610 201926.461|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/bin/pc2v9.ini
+150610 201926.462|INFO|main|setClientServerAndPort|setClientServerAndPort 140.116.82.73 parsed as 140.116.82.73 port 50002
+150610 201926.462|INFO|main|info|Contacting server at 140.116.82.73:50002
+150610 201926.464|INFO|main|connectToMyServer|Connecting to 140.116.82.73:50002
+150610 201926.548|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.116.82.73,port=50002,localport=57374]-4408882652317780396)
+150610 201926.692|WARNING|main|warning|images/icpc_banner.png(jar:file:/C:/Users/SONY_VAIO/Desktop/ITSA_1/ITSA_1/lib/pc2.jar!/images/icpc_banner.png) checksum failed
+150610 201926.727|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/140.116.82.73,port=50002,localport=57374]-4408882652317780396 key is com.sun.crypto.provider.DESKey@187d3
+150610 201926.727|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150610 201926.730|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    09d3901d a2ad39c8 28b939b4 400ecdd1 0868e523 7fe15d53 e31fa4e4 72cd386f
+    8921b306 e3351d55 e4b49aca 4272f1a6 8e3c271f 306f2272 91f5f82b 029c9979
+    8325bd7e f58348da 972f7368 16c93952 91d89332 0d6d4419 5463ee5c 25fcebba
+    25418d0d 8595cf94 c08c1d13 f2df3e58 33d23fbd c62b38b0 6fdc3a22 b0d3ed
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150610 201926.731|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@44d2479d

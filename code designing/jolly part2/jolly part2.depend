@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1415536115 source:c:\users\sony_vaio\desktop\jolly part2\main.c
+	<stdio.h>
+	<stdlib.h>
+

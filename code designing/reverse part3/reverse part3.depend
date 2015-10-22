@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1415615633 source:c:\users\sony_vaio\desktop\reverse part3\main.c
+	<stdio.h>
+	<stdlib.h>
+

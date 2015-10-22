@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1419400100 source:c:\users\sony_vaio\desktop\test rand\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

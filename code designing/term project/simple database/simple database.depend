@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1433681618 source:c:\users\sony_vaio\desktop\simple database - 複製\function.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"struct.h"
+
+1433672078 c:\users\sony_vaio\desktop\simple database - 複製\struct.h
+
+1433671908 source:c:\users\sony_vaio\desktop\simple database - 複製\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"function.h"
+	"struct.h"
+
+1433672104 c:\users\sony_vaio\desktop\simple database - 複製\function.h
+	"struct.h"
+
+1433683055 source:c:\users\sony_vaio\desktop\term project\simple database\function.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"struct.h"
+
+1433672078 c:\users\sony_vaio\desktop\term project\simple database\struct.h
+
+1433671908 source:c:\users\sony_vaio\desktop\term project\simple database\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"function.h"
+	"struct.h"
+
+1433672104 c:\users\sony_vaio\desktop\term project\simple database\function.h
+	"struct.h"
+

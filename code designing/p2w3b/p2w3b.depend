@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1430537851 source:c:\users\sony_vaio\desktop\p2w3b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
